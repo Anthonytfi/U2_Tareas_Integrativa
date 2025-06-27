@@ -83,19 +83,27 @@ npm run dev
 
 # Capturas de Pantalla
 Figura 1. Componente con Contador Inicial
-![Captura uso de componente - contador](img/Captura de pantalla 2025-06-26 203525.png)
+
+![Captura uso de componente - contador](img/Componente2.png)
 Nota: Elaboración propia (2025). Muestra el componente con el contador en 0.
 
 Figura 2. Componente con Límite Alcanzado
 
+![Captura uso de componente - contador](img/Componente1.png)
 Nota: Elaboración propia (2025). Muestra el componente con el contador en 10 y el mensaje de límite alcanzado.
 
-Errores Comunes y Soluciones
+# Errores Comunes y Soluciones
 
-Error: El contador no se actualiza.Solución: Verificar que requestUpdate() se llame en _increment y _decrement, y que los campos privados (_count, _limit, _isAtLimit) se actualicen correctamente.
-Error: La página está en blanco.Solución: Asegurarse de que npm install se haya ejecutado y que la estructura de carpetas (src/, components/) sea correcta.
+• Error: El contador no se actualiza.
 
-Autor
+Solución: Verificar que `requestUpdate()` se llame en `_increment` y `_decrement`, y que los campos privados (`_count`, `_limit`, `_isAtLimit`) se actualicen correctamente.
+
+Error: La página está en blanco.Solución: 
+
+Asegurarse de que `npm install` se haya ejecutado y que la estructura de carpetas (`src/`, `components/`) sea correcta.
+
+# Autor
+
 Anthony Geovanny Mejia Gaibor, junio de 2025.
 
 
