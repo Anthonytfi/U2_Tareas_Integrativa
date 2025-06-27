@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador con Límite ESPE</title>
+</head>
+<body>
+    <espe-counter-limit limit="10"></espe-counter-limit>
+    <p>Componente cargado correctamente.</p>
+    <script type="module" src="/main.ts"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const counter = document.querySelector('espe-counter-limit');
+            if (counter) console.log('Componente registrado');
+            else console.log('Componente no registrado');
+        });
+    </script>
+</body>
+</html>
